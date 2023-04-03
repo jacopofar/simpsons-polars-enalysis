@@ -1,0 +1,18 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.3.0",
+]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Jacopo Farina", email = "jacopo1.farina@gmail.com"},
+]
+dependencies = [
+    "polars>=0.16.18",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
